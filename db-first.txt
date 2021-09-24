@@ -1,6 +1,6 @@
 Auto
 
-id - NOT_NULL - INT
+id - PRIMARY_KEY - UNIQUE - NOT_NULL - INT - AUTO_INCREMENT
 marca - NOT_NULL - VARCHAR(50)
 modello - NOT_NULL - VARCHAR(50)
 targa - NOT_NULL - CHAR(7)
