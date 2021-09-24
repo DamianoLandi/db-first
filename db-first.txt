@@ -1,0 +1,16 @@
+Auto
+
+id - NOT_NULL - INT
+marca - NOT_NULL - VARCHAR(50)
+modello - NOT_NULL - VARCHAR(50)
+targa - NOT_NULL - CHAR(7)
+anno - NOT_NULL - YEAR
+colore - NOT_NULL - VARCHAR(25)
+posti - NOT_NULL - TINYINT
+porte - NOT_NULL - TINYINT
+carburante - NOT_NULL - VARCHAR(25)
+potenza - NOT_NULL - VARCHAR(5)
+peso - NOT_NULL - VARCHAR(5)
+prezzo - NOT_NULL - FLOAT(8,2)
+cambio_automatico - NOT_NULL - BOOL[TINYINT]
+is_usata - NOT_NULL - BOOL[TINYINT]
